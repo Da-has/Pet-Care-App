@@ -5,7 +5,7 @@ Built with **React**, **Vite**, and **React Router**, this app provides a fast a
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Home Page** — Welcome page introducing the app.  
 - **Pet List** — Displays a list of all registered pets.  
