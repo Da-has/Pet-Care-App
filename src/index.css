@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(214, 165, 165, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -65,4 +65,20 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+.btn-ghost {
+  background-color: transparent;
+  border: 1px solid #646cff;
+  color: #646cff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-ghost:hover {
+  background-color: #646cff;
+  color: white;
 }

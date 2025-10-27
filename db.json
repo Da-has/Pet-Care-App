@@ -1,29 +1,7 @@
 {
   "pets": [
     {
-      "id": 1,
-      "name": "Buddy",
-      "breed": "Golden Retriever",
-      "age": 3,
-      "health": "Healthy and very active, loves outdoor play.",
-      "grooming": "Regular brushing and occasional baths to maintain coat health.",
-      "exercise": "Daily walks and playtime for at least 30 minutes.",
-      "vaccination": "Rabies, parvovirus, distemper, and kennel cough.",
-      "image": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9nfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 2,
-      "name": "Mittens",
-      "breed": "Siamese Cat",
-      "age": 2,
-      "health": "Healthy, enjoys naps and clean fur.",
-      "grooming": "Brush fur weekly; trim nails and clean ears occasionally.",
-      "exercise": "Play sessions with toys and climbing structures.",
-      "vaccination": "Rabies, feline distemper, and feline herpesvirus.",
-      "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 3,
+      "id": "3",
       "name": "Sunny",
       "breed": "Parrot (African Grey)",
       "age": 5,
@@ -31,21 +9,10 @@
       "grooming": "Regular feather preening; occasional misting or baths.",
       "exercise": "Flying time and mental stimulation with toys.",
       "vaccination": "Typically none required; annual vet check recommended.",
-      "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFycm90fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+      "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&q=60&w=500"
     },
     {
-      "id": 4,
-      "name": "Peep",
-      "breed": "Canary",
-      "age": 1,
-      "health": "Healthy and sings daily.",
-      "grooming": "Provide clean water for bathing daily.",
-      "exercise": "Flying inside the cage or safe open area.",
-      "vaccination": "Generally not vaccinated; maintain hygiene.",
-      "image": "https://images.unsplash.com/photo-1654181925544-4b9f45943cc4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FuYXJ5fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 5,
+      "id": "5",
       "name": "Goldie",
       "breed": "Goldfish",
       "age": 2,
@@ -53,85 +20,147 @@
       "grooming": "Keep tank clean; filter water regularly.",
       "exercise": "Swimming space in a properly sized tank.",
       "vaccination": "Not applicable; maintain water quality to prevent disease.",
-      "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z29sZCUyMGZpc2h8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 6,
-      "name": "Bubbles",
-      "breed": "Betta Fish",
-      "age": 1,
-      "health": "Vibrant colors, swims well.",
-      "grooming": "Clean tank weekly; avoid overfeeding.",
-      "exercise": "Allow free swimming space; provide decorations to explore.",
-      "vaccination": "Not required; ensure good water conditions.",
-      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmV0dGElMjBmaXNofGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 7,
-      "name": "Spike",
-      "breed": "Leopard Gecko",
-      "age": 4,
-      "health": "Healthy, sheds smoothly and eats well.",
-      "grooming": "Keep terrarium clean; provide shedding support.",
-      "exercise": "Climbing and exploring branches or rocks.",
-      "vaccination": "Not required; regular vet checks recommended.",
-      "image": "https://plus.unsplash.com/premium_photo-1707213919475-6fc585c02168?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bGl6YXJkfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 8,
-      "name": "Shelly",
-      "breed": "Red-Eared Slider Turtle",
-      "age": 6,
-      "health": "Active, strong shell and healthy appetite.",
-      "grooming": "Clean shell and habitat regularly.",
-      "exercise": "Swimming and walking space in tank or outdoors.",
-      "vaccination": "Not necessary; maintain clean habitat to prevent infections.",
-      "image": "https://images.unsplash.com/photo-1496196614460-48988a57fccf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHVydGxlfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 9,
-      "name": "Clover",
-      "breed": "Pygmy Goat",
-      "age": 3,
-      "health": "Energetic, bright eyes, good appetite.",
-      "grooming": "Brush coat weekly; trim hooves regularly.",
-      "exercise": "Free grazing and open space for walking.",
-      "vaccination": "Clostridial diseases and tetanus shots.",
-      "image": "https://images.unsplash.com/photo-1524024973431-2ad916746881?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z29hdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 10,
-      "name": "Nugget",
-      "breed": "Silkie Chicken",
-      "age": 2,
-      "health": "Healthy feathers and active pecking.",
-      "grooming": "Dust baths; clean coop regularly.",
-      "exercise": "Allow space for scratching and foraging.",
-      "vaccination": "Mareks disease and Newcastle disease vaccines.",
-      "image": "https://images.unsplash.com/photo-1612170153139-6f881ff067e0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hpY2tlbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 11,
-      "name": "Pinecone",
-      "breed": "Hedgehog",
-      "age": 1,
-      "health": "Alert, healthy appetite, shiny spines.",
-      "grooming": "Occasional baths; trim nails carefully.",
-      "exercise": "Running wheel and space to explore.",
-      "vaccination": "Not required; regular vet visits advised.",
-      "image": "https://images.unsplash.com/photo-1470854989922-5be2f7456d78?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGVkZ2Vob2d8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": 12,
-      "name": "Whiskers",
-      "breed": "Ferret",
-      "age": 2,
-      "health": "Healthy coat, playful and energetic.",
-      "grooming": "Brush coat; clean ears and teeth regularly.",
-      "exercise": "Daily playtime and supervised exploration.",
-      "vaccination": "Rabies and distemper vaccines.",
-      "image": "https://images.unsplash.com/photo-1615087240969-eeff2fa558f2?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVycmV0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+      "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&q=60&w=500"
     }
-    
+  ],
+  "events": [
+    {
+      "id": "1",
+      "petId": 1,
+      "date": "2025-11-05",
+      "note": "Buddy's annual rabies vaccination"
+    },
+    {
+      "id": "2",
+      "petId": 1,
+      "date": "2025-11-15",
+      "note": "Buddy's grooming session"
+    },
+    {
+      "id": "3",
+      "petId": 2,
+      "date": "2025-11-10",
+      "note": "Mittens' flea treatment"
+    },
+    {
+      "id": "4",
+      "petId": 2,
+      "date": "2025-11-25",
+      "note": "Mittens vet check-up"
+    },
+    {
+      "id": "5",
+      "petId": 3,
+      "date": "2025-10-28",
+      "note": "Sunny's feather check and trimming"
+    },
+    {
+      "id": "6",
+      "petId": 3,
+      "date": "2025-12-05",
+      "note": "Sunny's annual vet visit"
+    },
+    {
+      "id": "7",
+      "petId": 4,
+      "date": "2025-10-30",
+      "note": "Peep cage cleaning and bath"
+    },
+    {
+      "id": "8",
+      "petId": 5,
+      "date": "2025-10-25",
+      "note": "Goldie tank cleaning"
+    },
+    {
+      "id": "9",
+      "petId": 5,
+      "date": "2025-11-25",
+      "note": "Goldie water filter replacement"
+    },
+    {
+      "id": "10",
+      "petId": 6,
+      "date": "2025-10-26",
+      "note": "Bubbles tank cleaning"
+    },
+    {
+      "id": "11",
+      "petId": 6,
+      "date": "2025-11-20",
+      "note": "Bubbles feeding schedule check"
+    },
+    {
+      "id": "12",
+      "petId": 7,
+      "date": "2025-11-05",
+      "note": "Spike terrarium cleaning"
+    },
+    {
+      "id": "13",
+      "petId": 7,
+      "date": "2025-12-02",
+      "note": "Spike vet check for shedding"
+    },
+    {
+      "id": "14",
+      "petId": 8,
+      "date": "2025-11-02",
+      "note": "Shelly shell cleaning"
+    },
+    {
+      "id": "15",
+      "petId": 8,
+      "date": "2025-12-15",
+      "note": "Shelly habitat maintenance"
+    },
+    {
+      "id": "16",
+      "petId": 9,
+      "date": "2025-11-12",
+      "note": "Clover hoof trimming"
+    },
+    {
+      "id": "17",
+      "petId": 9,
+      "date": "2025-12-10",
+      "note": "Clover tetanus booster"
+    },
+    {
+      "id": "18",
+      "petId": 10,
+      "date": "2025-10-27",
+      "note": "Nugget coop cleaning"
+    },
+    {
+      "id": "19",
+      "petId": 10,
+      "date": "2025-12-01",
+      "note": "Nugget Newcastle vaccine"
+    },
+    {
+      "id": "20",
+      "petId": 11,
+      "date": "2025-10-24",
+      "note": "Pinecone nail trimming"
+    },
+    {
+      "id": "21",
+      "petId": 11,
+      "date": "2025-11-18",
+      "note": "Pinecone health check"
+    },
+    {
+      "id": "22",
+      "petId": 12,
+      "date": "2025-10-29",
+      "note": "Whiskers grooming session"
+    },
+    {
+      "id": "23",
+      "petId": 12,
+      "date": "2025-11-30",
+      "note": "Whiskers rabies booster"
+    }
   ]
 }

@@ -1,42 +1,299 @@
-#root {
-  max-width: 1280px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@500;700&display=swap');
+
+:root {
+  --bg-1: linear-gradient(180deg, #a84d20 0%, #cfc2bb 50%, #7e5646 100%);
+  --card-bg: #4f3434;
+  --muted: #6a5953;
+  --accent: #a67a44;
+  --accent-2: #5f9b8d;
+  --glass: rgba(17,13,11,0.48);
+  --radius: 12px;
+  --shadow-sm: 0 1px 4px rgba(12,10,8,0.12);
+  --shadow-md: 0 10px 36px rgba(12,10,8,0.18);
+  --max-width: 1100px;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg-1);
+  color: #152022;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.45;
+  padding-top: 76px;
+}
+
+.app-container {
+  max-width: var(--max-width);
   margin: 0 auto;
-  padding: 2rem;
+  padding: 28px 20px;
+}
+
+/* ---- Navbar ---- */
+.navbar {
+  position: fixed;
+  top: 12px;
+  left: 0;
+  right: 0;
+  max-width: calc(var(--max-width) + 40px);
+  margin: 0 auto;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+  background: linear-gradient(90deg, rgba(112, 48, 48, 0.78), rgba(221, 208, 208, 0.62));
+  border-radius: 14px;
+  box-shadow: var(--shadow-md);
+  backdrop-filter: blur(6px);
+  z-index: 50;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-family: "Poppins", "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #020c1f;
+  font-size: 18px;
+}
+
+.navbar div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: var(--muted);
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 160ms ease;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  color: #071033;
+  background: rgba(166,122,68,0.08);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---- Home ---- */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 20px;
+  text-align: center;
+  border-radius: 14px;
+  background: linear-gradient(180deg, rgba(88, 145, 131, 0.04), transparent 40%);
+  margin-bottom: 22px;
+}
+
+.home h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  margin: 0 0 12px 0;
+  color: #000413;
+}
+
+.home p {
+  margin: 0;
+  font-size: 16px;
+  color: #473d42;
+}
+
+/* ---- Pet List ---- */
+.pet-list {
+  margin-top: 10px;
+  padding: 14px;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pet-list h2 {
+  margin: 0 0 14px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #071033;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* ✅ Flex Layout: Horizontal + Wrap */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-bottom: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* ---- Pet Card ---- */
+.pet-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 14px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+  min-height: 340px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 280px;
+}
+
+
+.pet-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(11,18,35,0.12);
+}
+
+.pet-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 4px solid rgba(255,255,255,0.12);
+}
+
+.pet-card h3 {
+  margin: 4px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.pet-card p {
+  margin: 3px 0;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  text-align: left;
+}
+
+.pet-card p strong {
+  color: #fff;
+  display: inline-block;
+  width: 72px;
+  font-weight: 600;
+}
+
+/* ---- Add Pet Form ---- */
+.add-pet-form {
+  background: #fff;
+  padding: 18px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  max-width: 820px;
+  margin-top: 16px;
+  display: grid;
+  gap: 12px;
+}
+
+.add-pet-form h2 {
+  margin: 0 0 6px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #071033;
+}
+
+.add-pet-form input[type="text"],
+.add-pet-form input[type="number"],
+.add-pet-form input[type="url"],
+.add-pet-form textarea,
+.add-pet-form select {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(11,18,35,0.06);
+  font-size: 14px;
+  outline: none;
+  transition: box-shadow 120ms ease, border-color 120ms ease;
+  background: rgba(1, 7, 17, 0.9);
+}
+
+.add-pet-form input:focus,
+.add-pet-form textarea:focus,
+.add-pet-form select:focus {
+  box-shadow: 0 6px 18px rgba(166,122,68,0.12);
+  border-color: rgba(166,122,68,0.45);
+}
+
+.add-pet-form label {
+  font-size: 13px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.image-preview {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* ---- Buttons ---- */
+button {
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--accent), #8d6233);
+  color: white;
+  transition: transform 120ms ease, box-shadow 120ms ease, opacity 120ms ease;
+  box-shadow: 0 10px 28px rgba(141,98,51,0.18);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(141,98,51,0.22);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #0b1220;
+  border: 1px solid rgba(11,18,35,0.06);
+  box-shadow: none;
+}
+
+.small-muted {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* ---- Responsive tweak ---- */
+@media (max-width: 480px) {
+  .pet-card {
+    width: 180px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .pet-card img {
+    height: 110px;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .pet-card p {
+    font-size: 12px;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
