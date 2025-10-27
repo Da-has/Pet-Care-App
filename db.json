@@ -1,17 +1,6 @@
 {
   "pets": [
     {
-      "id": "1",
-      "name": "Buddy",
-      "breed": "Golden Retriever",
-      "age": 3,
-      "health": "Healthy and very active, loves outdoor play.",
-      "grooming": "Regular brushing and occasional baths to maintain coat health.",
-      "exercise": "Daily walks and playtime for at least 30 minutes.",
-      "vaccination": "Rabies, parvovirus, distemper, and kennel cough.",
-      "image": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&q=60&w=500"
-    },
-    {
       "id": "2",
       "name": "Mittens",
       "breed": "Siamese Cat",
@@ -131,17 +120,6 @@
       "exercise": "Daily playtime and supervised exploration.",
       "vaccination": "Rabies and distemper vaccines.",
       "image": "https://images.unsplash.com/photo-1615087240969-eeff2fa558f2?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "ec70",
-      "name": "Henry",
-      "age": "3",
-      "breed": "fish",
-      "health": "healthy",
-      "grooming": "Regular grooming and brushing.",
-      "exercise": "Daily walks or playtime.",
-      "vaccination": "Keep up-to-date with vaccines.",
-      "image": "blob:http://localhost:5173/ae7e981d-f304-4a51-ae59-81b3441f3adf"
     }
   ],
   "events": [

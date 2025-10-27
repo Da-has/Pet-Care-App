@@ -1,10 +1,9 @@
-function PetCard({ pet }) {
-  const { name, age, breed, health, grooming, exercise, vaccination, image } =
-    pet;
+function PetCard({ pet, onDelete }) {
+  const { id, name, age, breed, health, grooming, exercise, vaccination, image } = pet;
 
   return (
     <div className="pet-card">
-      <img src={image} alt={name} width="200"/>
+      <img src={image} alt={name} width="200" />
       <h3>{name}</h3>
       <p>
         <strong>Age:</strong> {age}
@@ -24,6 +23,9 @@ function PetCard({ pet }) {
       <p>
         <strong>Vaccination:</strong> {vaccination}
       </p>
+      <button onClick={() => onDelete(id)} className="btn-ghost">
+        🗑️ Delete
+      </button>
     </div>
   );
 }
