@@ -1,28 +1,6 @@
 {
   "pets": [
     {
-      "id": "1",
-      "name": "Buddy",
-      "breed": "Golden Retriever",
-      "age": 3,
-      "health": "Healthy and very active, loves outdoor play.",
-      "grooming": "Regular brushing and occasional baths to maintain coat health.",
-      "exercise": "Daily walks and playtime for at least 30 minutes.",
-      "vaccination": "Rabies, parvovirus, distemper, and kennel cough.",
-      "image": "https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "2",
-      "name": "Mittens",
-      "breed": "Siamese Cat",
-      "age": 2,
-      "health": "Healthy, enjoys naps and clean fur.",
-      "grooming": "Brush fur weekly; trim nails and clean ears occasionally.",
-      "exercise": "Play sessions with toys and climbing structures.",
-      "vaccination": "Rabies, feline distemper, and feline herpesvirus.",
-      "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&q=60&w=500"
-    },
-    {
       "id": "3",
       "name": "Sunny",
       "breed": "Parrot (African Grey)",
@@ -34,17 +12,6 @@
       "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&q=60&w=500"
     },
     {
-      "id": "4",
-      "name": "Peep",
-      "breed": "Canary",
-      "age": 1,
-      "health": "Healthy and sings daily.",
-      "grooming": "Provide clean water for bathing daily.",
-      "exercise": "Flying inside the cage or safe open area.",
-      "vaccination": "Generally not vaccinated; maintain hygiene.",
-      "image": "https://images.unsplash.com/photo-1654181925544-4b9f45943cc4?auto=format&fit=crop&q=60&w=500"
-    },
-    {
       "id": "5",
       "name": "Goldie",
       "breed": "Goldfish",
@@ -54,94 +21,6 @@
       "exercise": "Swimming space in a properly sized tank.",
       "vaccination": "Not applicable; maintain water quality to prevent disease.",
       "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "6",
-      "name": "Bubbles",
-      "breed": "Betta Fish",
-      "age": 1,
-      "health": "Vibrant colors, swims well.",
-      "grooming": "Clean tank weekly; avoid overfeeding.",
-      "exercise": "Allow free swimming space; provide decorations to explore.",
-      "vaccination": "Not required; ensure good water conditions.",
-      "image": "https://images.unsplash.com/photo-1544943910-4c1dc44aab44?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "7",
-      "name": "Spike",
-      "breed": "Leopard Gecko",
-      "age": 4,
-      "health": "Healthy, sheds smoothly and eats well.",
-      "grooming": "Keep terrarium clean; provide shedding support.",
-      "exercise": "Climbing and exploring branches or rocks.",
-      "vaccination": "Not required; regular vet checks recommended.",
-      "image": "https://plus.unsplash.com/premium_photo-1707213919475-6fc585c02168?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "8",
-      "name": "Shelly",
-      "breed": "Red-Eared Slider Turtle",
-      "age": 6,
-      "health": "Active, strong shell and healthy appetite.",
-      "grooming": "Clean shell and habitat regularly.",
-      "exercise": "Swimming and walking space in tank or outdoors.",
-      "vaccination": "Not necessary; maintain clean habitat to prevent infections.",
-      "image": "https://images.unsplash.com/photo-1496196614460-48988a57fccf?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "9",
-      "name": "Clover",
-      "breed": "Pygmy Goat",
-      "age": 3,
-      "health": "Energetic, bright eyes, good appetite.",
-      "grooming": "Brush coat weekly; trim hooves regularly.",
-      "exercise": "Free grazing and open space for walking.",
-      "vaccination": "Clostridial diseases and tetanus shots.",
-      "image": "https://images.unsplash.com/photo-1524024973431-2ad916746881?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "10",
-      "name": "Nugget",
-      "breed": "Silkie Chicken",
-      "age": 2,
-      "health": "Healthy feathers and active pecking.",
-      "grooming": "Dust baths; clean coop regularly.",
-      "exercise": "Allow space for scratching and foraging.",
-      "vaccination": "Mareks disease and Newcastle disease vaccines.",
-      "image": "https://images.unsplash.com/photo-1612170153139-6f881ff067e0?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "11",
-      "name": "Pinecone",
-      "breed": "Hedgehog",
-      "age": 1,
-      "health": "Alert, healthy appetite, shiny spines.",
-      "grooming": "Occasional baths; trim nails carefully.",
-      "exercise": "Running wheel and space to explore.",
-      "vaccination": "Not required; regular vet visits advised.",
-      "image": "https://images.unsplash.com/photo-1470854989922-5be2f7456d78?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "12",
-      "name": "Whiskers",
-      "breed": "Ferret",
-      "age": 2,
-      "health": "Healthy coat, playful and energetic.",
-      "grooming": "Brush coat; clean ears and teeth regularly.",
-      "exercise": "Daily playtime and supervised exploration.",
-      "vaccination": "Rabies and distemper vaccines.",
-      "image": "https://images.unsplash.com/photo-1615087240969-eeff2fa558f2?auto=format&fit=crop&q=60&w=500"
-    },
-    {
-      "id": "ec70",
-      "name": "Henry",
-      "age": "3",
-      "breed": "fish",
-      "health": "healthy",
-      "grooming": "Regular grooming and brushing.",
-      "exercise": "Daily walks or playtime.",
-      "vaccination": "Keep up-to-date with vaccines.",
-      "image": "blob:http://localhost:5173/ae7e981d-f304-4a51-ae59-81b3441f3adf"
     }
   ],
   "events": [
