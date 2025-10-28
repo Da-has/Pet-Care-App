@@ -1,6 +1,17 @@
 {
   "pets": [
     {
+      "id": "2",
+      "name": "Milo",
+      "age": 2,
+      "breed": "Golden Retriever",
+      "health": "Excellent",
+      "grooming": "Monthly trim",
+      "exercise": "1 long walk",
+      "vaccination": "Up to date",
+      "image": "https://images.unsplash.com/photo-1507149833265-60c372daea22"
+    },
+    {
       "id": "3",
       "name": "Sunny",
       "breed": "Parrot (African Grey)",
@@ -12,6 +23,17 @@
       "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&q=60&w=500"
     },
     {
+      "id": "4",
+      "name": "Bella",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "health": "Excellent overall health; shiny coat and energetic.",
+      "grooming": "Brush twice a week and bathe monthly.",
+      "exercise": "Daily walks and playtime for at least 1 hour.",
+      "vaccination": "All core vaccines up to date.",
+      "image": "https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&q=60&w=500"
+    },
+    {
       "id": "5",
       "name": "Goldie",
       "breed": "Goldfish",
@@ -21,6 +43,18 @@
       "exercise": "Swimming space in a properly sized tank.",
       "vaccination": "Not applicable; maintain water quality to prevent disease.",
       "image": "https://images.unsplash.com/photo-1522069169874-c58ec4b76be5?auto=format&fit=crop&q=60&w=500"
+    }
+  ],
+  "reminders": [
+    {
+      "id": "1",
+      "date": "2025-10-30",
+      "note": "Vet appointment for Bella at 3 PM"
+    },
+    {
+      "id": "2",
+      "date": "2025-11-02",
+      "note": "Grooming appointment for Milo"
     }
   ],
   "events": [
