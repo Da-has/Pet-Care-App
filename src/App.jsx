@@ -7,7 +7,6 @@ import PetList from "./components/PetList";
 import AddPetForm from "./components/AddPetForm";
 import EditPetForm from "./components/EditPetForm";
 import ReminderList from "./components/ReminderList";
-import Footer from "./components/Footer";
 import toast, { Toaster } from "react-hot-toast";
 
 function App() {
