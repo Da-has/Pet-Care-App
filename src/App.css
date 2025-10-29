@@ -79,7 +79,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0 20px;
-  background-image: url();
+  background-image: url("frame.png");
 }
 
 .home h1 {
