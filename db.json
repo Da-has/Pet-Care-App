@@ -4,12 +4,12 @@
       "id": "2",
       "name": "Milo",
       "age": 2,
-      "breed": "Golden Retriever",
+      "breed": "tabby-cat",
       "health": "Excellent",
       "grooming": "Monthly trim",
       "exercise": "1 long walk",
       "vaccination": "Up to date",
-      "image": "https://images.unsplash.com/photo-1507149833265-60c372daea22"
+      "image": "https://images.unsplash.com/photo-1573865526739-10659fec78a5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
     },
     {
       "id": "3",
@@ -59,18 +59,6 @@
   ],
   "events": [
     {
-      "id": "1",
-      "petId": 1,
-      "date": "2025-11-05",
-      "note": "Buddy's annual rabies vaccination"
-    },
-    {
-      "id": "2",
-      "petId": 1,
-      "date": "2025-11-15",
-      "note": "Buddy's grooming session"
-    },
-    {
       "id": "3",
       "petId": 2,
       "date": "2025-11-10",
@@ -111,90 +99,6 @@
       "petId": 5,
       "date": "2025-11-25",
       "note": "Goldie water filter replacement"
-    },
-    {
-      "id": "10",
-      "petId": 6,
-      "date": "2025-10-26",
-      "note": "Bubbles tank cleaning"
-    },
-    {
-      "id": "11",
-      "petId": 6,
-      "date": "2025-11-20",
-      "note": "Bubbles feeding schedule check"
-    },
-    {
-      "id": "12",
-      "petId": 7,
-      "date": "2025-11-05",
-      "note": "Spike terrarium cleaning"
-    },
-    {
-      "id": "13",
-      "petId": 7,
-      "date": "2025-12-02",
-      "note": "Spike vet check for shedding"
-    },
-    {
-      "id": "14",
-      "petId": 8,
-      "date": "2025-11-02",
-      "note": "Shelly shell cleaning"
-    },
-    {
-      "id": "15",
-      "petId": 8,
-      "date": "2025-12-15",
-      "note": "Shelly habitat maintenance"
-    },
-    {
-      "id": "16",
-      "petId": 9,
-      "date": "2025-11-12",
-      "note": "Clover hoof trimming"
-    },
-    {
-      "id": "17",
-      "petId": 9,
-      "date": "2025-12-10",
-      "note": "Clover tetanus booster"
-    },
-    {
-      "id": "18",
-      "petId": 10,
-      "date": "2025-10-27",
-      "note": "Nugget coop cleaning"
-    },
-    {
-      "id": "19",
-      "petId": 10,
-      "date": "2025-12-01",
-      "note": "Nugget Newcastle vaccine"
-    },
-    {
-      "id": "20",
-      "petId": 11,
-      "date": "2025-10-24",
-      "note": "Pinecone nail trimming"
-    },
-    {
-      "id": "21",
-      "petId": 11,
-      "date": "2025-11-18",
-      "note": "Pinecone health check"
-    },
-    {
-      "id": "22",
-      "petId": 12,
-      "date": "2025-10-29",
-      "note": "Whiskers grooming session"
-    },
-    {
-      "id": "23",
-      "petId": 12,
-      "date": "2025-11-30",
-      "note": "Whiskers rabies booster"
     }
   ]
 }
