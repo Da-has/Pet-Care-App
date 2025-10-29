@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import PetList from "./components/PetList";
 import AddPetForm from "./components/AddPetForm";
 import EditPetForm from "./components/EditPetForm";
-import ReminderList from "./components/ReminderList"; // 📅 NEW
+import ReminderList from "./components/ReminderList";
 import toast, { Toaster } from "react-hot-toast";
 
 function App() {
