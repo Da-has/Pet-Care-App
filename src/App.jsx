@@ -6,24 +6,27 @@ import Home from "./components/Home";
 import PetList from "./components/PetList";
 import AddPetForm from "./components/AddPetForm";
 import EditPetForm from "./components/EditPetForm";
-import ReminderList from "./components/ReminderList"; // 📅 NEW
+import ReminderList from "./components/ReminderList";
 import toast, { Toaster } from "react-hot-toast";
+
+// 🌍 Use environment variable (works locally and on Vercel)
+const API_BASE = import.meta.env.VITE_API_URL;
 
 function App() {
   const [pets, setPets] = useState([]);
-  const [reminders, setReminders] = useState([]); // 📅 NEW STATE
+  const [reminders, setReminders] = useState([]);
 
-  // ✅ Fetch pets from db.json on mount
+  // ✅ Fetch pets
   useEffect(() => {
-    fetch("http://localhost:3001/pets")
+    fetch(`${API_BASE}/pets`)
       .then((res) => res.json())
       .then((data) => setPets(data))
       .catch((error) => console.error("Error fetching pets:", error));
   }, []);
 
-  // ✅ Fetch reminders (optional: if using db.json for reminders)
+  // ✅ Fetch reminders
   useEffect(() => {
-    fetch("http://localhost:3001/reminders")
+    fetch(`${API_BASE}/reminders`)
       .then((res) => res.json())
       .then((data) => setReminders(data))
       .catch(() => console.log("No reminders data found (optional)."));
@@ -31,7 +34,7 @@ function App() {
 
   // ✅ Add new pet
   const handleAddPet = (newPet) => {
-    fetch("http://localhost:3001/pets", {
+    fetch(`${API_BASE}/pets`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newPet),
@@ -48,7 +51,7 @@ function App() {
   const handleDeletePet = (id) => {
     if (!window.confirm("Are you sure you want to delete this pet?")) return;
 
-    fetch(`http://localhost:3001/pets/${id}`, { method: "DELETE" })
+    fetch(`${API_BASE}/pets/${id}`, { method: "DELETE" })
       .then(() => {
         setPets((prevPets) => prevPets.filter((pet) => pet.id !== id));
         toast.success("Pet deleted successfully!");
@@ -58,7 +61,7 @@ function App() {
 
   // ✅ Update pet
   const handleUpdatePet = (updatedPet) => {
-    fetch(`http://localhost:3001/pets/${updatedPet.id}`, {
+    fetch(`${API_BASE}/pets/${updatedPet.id}`, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(updatedPet),
@@ -73,9 +76,9 @@ function App() {
       .catch(() => toast.error("Failed to update pet."));
   };
 
-  // 📅 Add Reminder
+  // ✅ Add Reminder
   const handleAddReminder = (reminder) => {
-    fetch("http://localhost:3001/reminders", {
+    fetch(`${API_BASE}/reminders`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(reminder),
@@ -88,9 +91,9 @@ function App() {
       .catch(() => toast.error("Failed to add reminder."));
   };
 
-  // ❌ Delete Reminder
+  // ✅ Delete Reminder
   const handleDeleteReminder = (id) => {
-    fetch(`http://localhost:3001/reminders/${id}`, { method: "DELETE" })
+    fetch(`${API_BASE}/reminders/${id}`, { method: "DELETE" })
       .then(() => {
         setReminders((prev) => prev.filter((r) => r.id !== id));
         toast.success("Reminder deleted!");
