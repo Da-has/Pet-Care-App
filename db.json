@@ -2,7 +2,7 @@
   "pets": [
     {
       "id": "2",
-      "name": "Milo",
+      "name": "Mittens",
       "age": 2,
       "breed": "tabby-cat",
       "health": "Excellent",
@@ -13,7 +13,7 @@
     },
     {
       "id": "3",
-      "name": "Sunny",
+      "name": "Peep",
       "breed": "Parrot (African Grey)",
       "age": 5,
       "health": "Bright feathers, alert and playful.",
@@ -55,6 +55,11 @@
       "id": "2",
       "date": "2025-11-02",
       "note": "Grooming appointment for Milo"
+    },
+    {
+      "date": "2025-10-31",
+      "note": "Bella's vet check-up",
+      "id": 1761738963119
     }
   ],
   "events": [
