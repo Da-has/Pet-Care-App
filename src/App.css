@@ -1,6 +1,5 @@
 /* === GLOBAL STYLES === */
 :root {
-  --bg-1: linear-gradient(180deg, #f7f9fc, #dbeafe);
   --primary-color: #2563eb;
   --secondary-color: #1e40af;
   --text-color: #152022;
@@ -22,6 +21,8 @@ body {
   padding: 0;
   background-image: url("/frame.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* === NAVBAR === */
@@ -64,12 +65,14 @@ body {
   align-items: center; /* centers horizontally */
   text-align: center;
   min-height: calc(100vh - 76px); /* fill space below navbar */
-  background: var(--bg-1);
   color: var(--text-color);
   box-sizing: border-box;
   margin: 0;
   padding: 0 20px;
   background-image: url("frame.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .home h1 {
@@ -225,7 +228,6 @@ body {
 }
 
 /* === IMPROVED PET CARD BUTTONS & SPACING === */
-
 .pet-actions {
   display: flex;
   justify-content: space-between;
@@ -361,14 +363,4 @@ body {
   margin-bottom: 8px;
   border-bottom: 1px solid #eee;
   padding: 6px 0;
-}
-
-.upcoming-reminders {
-  background: #f9fafb;
-  padding: 20px;
-  border-radius: 12px;
-  max-width: 600px;
-  width: 90%;
-  margin-top: 40px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
